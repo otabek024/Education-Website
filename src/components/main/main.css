@@ -1,0 +1,123 @@
+.main-bg{
+  width: 100%;
+  height: 100vh;
+  background-color:whitesmoke;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
+}
+
+.left{
+  width: 50%;
+  padding-left: 10px;
+}
+
+.m-title{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #333;
+}
+
+.m-desc{
+  font-size: 1rem;
+  margin-top: 20px;
+  width: 60%;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.m-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .7rem;
+  padding-top: 10px;
+  width: 40%;
+  background-image: linear-gradient(to right, rgb(255, 0, 128), rgb(255, 98, 98));
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 0 15px 2px rgb(241, 58, 113);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.m-btn i{
+  font-size: 1rem;
+}
+
+
+.m-btn:hover{
+  opacity: 80%;
+}
+
+.m-icons{
+  display: flex;
+  gap: 1rem;
+  margin-top: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.m-icons a{
+  color: #333;
+}
+
+.m-icons a:hover{
+  opacity: 50%;
+}
+
+
+.right{
+  width: 50%;
+}
+
+.mainImg{
+  margin: auto;
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .m-title{
+    font-size: 2rem;
+  }
+  .m-desc{
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .m-btn{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 2rem auto;
+  }
+  
+  .m-title{
+    font-size: 2rem;
+  }
+  .m-desc{
+    width: 80%;
+    font-size: 0.8rem;
+  }
+  .right{
+    display: none;
+  }
+
+  .m-btn {
+    padding-top: 10px;
+  }
+
+  .main-bg{
+    height: 70vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%);
+  }
+
+}

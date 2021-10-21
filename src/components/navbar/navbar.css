@@ -1,0 +1,13 @@
+.fa-phone{
+  border: 1px solid gray;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+
+.n-languages .btn{
+  padding: 0;
+}
+
+.n-languages{
+  margin-right: 20px;
+}
