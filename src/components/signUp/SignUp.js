@@ -4,7 +4,7 @@ import './signup.css'
 const SignUp = () => {
   return (
     <>
-      <div className="container-fluid signup">
+      <div id="sign-up" className="container-fluid signup">
         <div className="container">
           <div className="signup-content">
             <h1 className="signup-title">Sign up for courses</h1>

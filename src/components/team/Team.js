@@ -10,7 +10,7 @@ import person5 from '../../img/person 5.jpg'
 const Team = () => {
   return (
     <>
-      <div className="container-fluid carousel-section">
+      <div id="team" className="container-fluid carousel-section">
         <div className="container cars-container">
           <div className="row">
             <h1 className="team-title">Our Team</h1>

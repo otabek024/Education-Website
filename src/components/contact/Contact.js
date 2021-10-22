@@ -4,24 +4,30 @@ import './contact.css'
 const Contact = () => {
   return (
     <>
-      <div className="container-fluid contact-page">
+      <div id="contact" className="container-fluid contact-page">
         <div className="container">
-          <div className="contact">
-            <div className="contact-left">
-              <a className="c-contact">Guide</a>
-              <a className="c-contact">Support</a>
-              <a className="c-contact">API</a>
-              <a className="c-contact">Community</a>
-            </div>
-            <div className="contact-right">
-              <a className="c-contact"> &copy;  Otabek Abdurakhmonov</a>
-            </div>
-
+          <div className="fo-wrapper">
+            <ul className="fo-list">
+              <li className="fo-list-item">Guide</li>
+              <li className="fo-list-item">Support</li>
+              <li className="fo-list-item">API</li>
+              <li className="fo-list-item">Community</li>
+            </ul>
+            <span className="copyright">
+              &copy; Otabek Abdurakhmonov 2021
+              <a href="#" className="contact-arrow bottom-0 end-0 p-5">
+                <i className="fas fa-arrow-up"></i>
+              </a>
+            </span>
           </div>
         </div>
       </div>
     </>
   )
 }
+
+{/* <a href="#" className="contact-arrow bottom-0 end-0 p-5">
+<i className="fas fa-arrow-up"></i>
+</a> */}
 
 export default Contact

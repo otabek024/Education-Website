@@ -5,7 +5,7 @@ import leftImg from '../../img/team-1.jpg'
 const About = () => {
   return (
     <>
-      <div className="container-fluid about">
+      <div id="about" className="container-fluid about">
         <div className="container">
           <div className="about-us">
             <h1 className="a-title">

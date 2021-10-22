@@ -5,7 +5,7 @@ import mainImg from '../../img/girl.png'
 const Main = () => {
   return (
     <>
-      <div className="container-fluid pt-lg-5 mt-5 pt-5 main-bg">
+      <div id="home" className="container-fluid pt-lg-5 mt-5 pt-5 main-bg">
         <div className="container d-flex justify-content-space-between pt-lg-5">
           <div className="left">
             <h1 className="m-title">

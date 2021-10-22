@@ -7,7 +7,7 @@ import math from '../../img/math.jpg'
 const Courses = () => {
   return (
     <>
-      <div className="container-fluid courses-page">
+      <div id="courses" className="container-fluid courses-page">
         <div className="container">
           <div className="courses">
             <h2 className="courses-main-t mb-4 pb-4">Our courses</h2>

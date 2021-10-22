@@ -4,7 +4,7 @@ import './body2.css'
 const Body2 = () => {
   return (
     <>
-      <div className="container-fluid p-5 body2">
+      <div id="news" className="container-fluid p-5 body2">
         <div className="container">
           <div className="b2-content d-flex flex-column justify-content-center align-items-center">
             <h1 className="b2-title-m">
