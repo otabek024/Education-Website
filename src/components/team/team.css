@@ -1,0 +1,169 @@
+.carousel-section{
+  height: 100vh;
+
+  background: linear-gradient(-100deg, whitesmoke 50%, lightpink 50%);
+  padding: 2rem;
+}
+
+.cars-container{
+  margin-top: 8%;
+}
+
+.img-text{
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 40% 5%;
+  background: #333;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.img-text h2{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.img-text p{
+  font-size: 14px;
+}
+
+.single-box{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.img-area{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  top: 15px;
+  left: 150px;
+  border-radius: 50%;
+}
+
+.img-area img{
+  width: 100%;
+}
+
+.carousel-indicators{
+  left: 0;
+  top: auto;
+  bottom: -70px;
+}
+
+.carousel-indicators li{
+  background: #000;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.carousel-indicators .active{
+  background: #fff;
+}
+
+.team-title{
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1200px) {
+  .img-area{
+    left: 100px;
+  }
+  .img-text h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+  }
+  
+  .img-text p{
+    font-size: 12px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .img-area{
+    left: 60px;
+    margin-top: 20px;
+  }
+  .img-text h2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 65px;
+  }
+  
+  .img-text p{
+    font-size: 12px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-area{
+    left: 60px;
+    margin-top: 20px;
+  }
+  .img-text h2{
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .img-area{
+    left: 190px;
+    margin-top: 40px;
+  }
+  .img-text h2{
+    margin-top: 10px;
+  }
+  .carousel-section{
+    height: 230vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .img-area{
+    left: 150px;
+    margin-top: 20px;
+  }
+  .img-text h2{
+    margin-top: 20px;
+  }
+  .carousel-section{
+    height: 175vh;
+  }
+}
+@media screen and (max-width: 425px) {
+  .img-area{
+    left: 120px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .img-area{
+    left: 90px;
+    margin-top: 20px;
+  }
+  .img-text h2{
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .img-area{
+    left: 70px;
+    margin-top: 20px;
+  }
+  .img-text h2{
+    margin-top: 60px;
+  }
+  .carousel-section{
+    margin-top: 30px;
+  }
+}
+

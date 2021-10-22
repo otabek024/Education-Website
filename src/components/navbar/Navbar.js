@@ -38,7 +38,7 @@ const Navbar = () => {
                 <button className="btn">Uz</button>
               </div>
               <div>
-                <i className="fas fas fa-phone"> 8 95 202 11 22</i>
+                <i className="fas fas fa-phone"> 1 23 456 78 90</i>
               </div>
             </form>
           </div>

@@ -1,0 +1,152 @@
+.courses-page{
+  height: 130vh;
+}
+
+.courses-main-t{
+  font-weight: bolder;
+}
+
+.courses{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.images-size{
+  width: 20rem;
+}
+
+.course{
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: lightgray;
+  border-radius: 30px;
+  padding: 2rem;
+  margin-top: 20px;
+}
+
+.arabic{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.arabic-title{
+  color: #222;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.arabic-content p{
+  font-size: .8rem;
+}
+
+.arabic-content{
+  display: flex;
+  gap: 1.5rem;
+  color: #555;
+}
+
+.arabic-desc{
+  width: 70%;
+  color: #333;
+  font-size: .8rem;
+  margin-top: 10px;
+}
+
+.btn-text{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 10px;
+}
+
+.register-btn{
+  padding: 5px 30px;
+  border-radius: 30px;
+  background-color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  color: crimson;
+  box-shadow: 0 0 10px 3px lightpink;
+  border: 2px solid crimson;
+}
+
+.register-btn:hover{
+  background-color: crimson;
+  color: #fff;
+  box-shadow: 0 0 10px 5px rgb(247, 108, 128);
+}
+
+.places-left{
+  color: #555;
+}
+
+.april-2{
+  background-color: pink;
+  border-radius: 30px;
+  padding: 2px 5px;
+}
+
+.math-img{
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+  .courses-page{
+    height: 150vh;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .courses-page{
+    height: 270vh;
+  }
+  .course{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .arabic-desc{
+    width: 100%;
+  }
+  .btn-text{
+    justify-content: center;
+  }
+}
+@media screen and (max-width:480px) {
+  .courses-page{
+    height: 180vh;
+  }
+  
+  .images-size{
+    width: 10rem;
+  }
+  .arabic-content{
+    text-align: center;
+  }
+  .arabic-content p{
+    font-size: .5rem;
+    text-align: center;
+  }
+  .arabic-desc{
+    display: none;
+  }
+  .register-btn{
+    padding: 2px 20px;
+    font-size: .8rem;
+  }
+  .places-left{
+    font-size: .7rem;
+  }
+}
+
+
+
+

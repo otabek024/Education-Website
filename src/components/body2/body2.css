@@ -21,15 +21,15 @@
   height: 200px;
   margin: 0 auto;
   padding: 2.5rem 1.5rem;
-  background-image: linear-gradient(to left, royalblue, rgb(248, 103, 151));
+  background-color: rgb(97, 113, 129);
   box-shadow: 0 0 10px 5px lightblue;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .b2-box:hover{
-  transition: 2s ease-in-out;
-  background-image: linear-gradient(to right, royalblue, rgb(248, 103, 151));
+  transition: .5s linear;
+  background-color: dodgerblue;
 }
 
 .b2-box i{

@@ -1,0 +1,36 @@
+.contact-page{
+  height: 20vh;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact{
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+@media screen and (max-width: 480px) {
+  .contact{
+    flex-direction: column;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .c-contact{
+    font-size: .8rem;
+  }
+}
