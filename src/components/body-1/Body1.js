@@ -7,28 +7,28 @@ const Body1 = () => {
       <div className="container-fluid p-5 body1">
         <div className="container">
           <div className="b1-content">
-            <h1 className="b1-title">Why do they choose us?</h1>
+            <h1 className="b1-title-main">Why do they choose us?</h1>
             <div className="boxes">
               <div className="box">
                 <i className="fal fa-file-alt"></i>
-                <h5 className="b-title">Experience</h5>
-                <p className="b-desc">
+                <h5 className="b1-title">Experience</h5>
+                <p className="b1-desc">
                   We are proud of our highly qualified teacher 
                   who has at least 10 years of teaching experience
                 </p>
               </div>
               <div className="box">
               <i className="fal fa-shapes"></i>
-                <h5 className="b-title">Variety courses</h5>
-                <p className="b-desc">
+                <h5 className="b1-title">Variety courses</h5>
+                <p className="b1-desc">
                   Many types of courses from begining to the high
                   level of English and Arabic language 
                 </p>
               </div>
               <div className="box">
               <i className="fal fa-cube"></i>
-                <h5 className="b-title">Unique methods</h5>
-                <p className="b-desc">
+                <h5 className="b1-title">Unique methods</h5>
+                <p className="b1-desc">
                   We will not waste your time and teach you with 
                   a latest method
                 </p>

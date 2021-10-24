@@ -1,7 +1,13 @@
 import React from 'react'
 import './navbar.css'
 
+
 const Navbar = () => {
+
+  // const googleTranslateElementInit = () => {
+  //   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+  // }
+
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -11,7 +17,7 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-center">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
@@ -36,9 +42,7 @@ const Navbar = () => {
             </ul>
             <form class="d-flex justify-content-center align-items-center">
               <div className="n-languages">
-                <button className="btn">En/</button>
-                <button className="btn">Ru/</button>
-                <button className="btn">Uz</button>
+                <div id="google_translate_element" className="g-translator"></div>
               </div>
               <div>
                 <i className="fas fas fa-phone"> 1 23 456 78 90</i>

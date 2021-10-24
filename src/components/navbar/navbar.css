@@ -1,13 +1,15 @@
 .fa-phone{
-  border: 1px solid gray;
-  padding: 5px 15px;
-  border-radius: 30px;
+  border: 1px solid rgb(201, 200, 200);
+  padding: 3px 15px;
+  font-weight: lighter;
 }
 
-.n-languages .btn{
-  padding: 0;
+.g-translator{
+  padding-right: 15px;
 }
 
-.n-languages{
-  margin-right: 20px;
+@media screen and (max-width: 480px) {
+  .fa-phone{
+    display: none;
+  }
 }

@@ -47,7 +47,7 @@
 
 
 .m-btn:hover{
-  opacity: 80%;
+  background-image: linear-gradient(to left, rgb(255, 0, 128), rgb(255, 98, 98));
 }
 
 .m-icons{
@@ -63,7 +63,8 @@
 }
 
 .m-icons a:hover{
-  opacity: 50%;
+  transform: scale(1.2);
+  color: crimson;
 }
 
 
